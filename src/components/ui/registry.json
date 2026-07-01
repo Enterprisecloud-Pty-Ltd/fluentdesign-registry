@@ -1,0 +1,1260 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "items": [
+    {
+      "name": "accordion",
+      "type": "registry:ui",
+      "title": "Accordion",
+      "description": "FluentDesign Accordion component.",
+      "files": [
+        {
+          "path": "accordion.tsx",
+          "type": "registry:ui",
+          "target": "@ui/accordion.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "lucide-react@^0.487.0",
+        "radix-ui@^1.6.0"
+      ]
+    },
+    {
+      "name": "alert",
+      "type": "registry:ui",
+      "title": "Alert",
+      "description": "FluentDesign Alert component.",
+      "files": [
+        {
+          "path": "alert.tsx",
+          "type": "registry:ui",
+          "target": "@ui/alert.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1"
+      ]
+    },
+    {
+      "name": "alert-dialog",
+      "type": "registry:ui",
+      "title": "Alert Dialog",
+      "description": "FluentDesign Alert Dialog component.",
+      "files": [
+        {
+          "path": "alert-dialog.tsx",
+          "type": "registry:ui",
+          "target": "@ui/alert-dialog.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/button.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "radix-ui@^1.6.0"
+      ]
+    },
+    {
+      "name": "aspect-ratio",
+      "type": "registry:ui",
+      "title": "Aspect Ratio",
+      "description": "FluentDesign Aspect Ratio component.",
+      "files": [
+        {
+          "path": "aspect-ratio.tsx",
+          "type": "registry:ui",
+          "target": "@ui/aspect-ratio.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json"
+      ],
+      "dependencies": [
+        "radix-ui@^1.6.0"
+      ]
+    },
+    {
+      "name": "attachment",
+      "type": "registry:ui",
+      "title": "Attachment",
+      "description": "FluentDesign Attachment component.",
+      "files": [
+        {
+          "path": "attachment.tsx",
+          "type": "registry:ui",
+          "target": "@ui/attachment.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/button.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1",
+        "radix-ui@^1.6.0"
+      ]
+    },
+    {
+      "name": "avatar",
+      "type": "registry:ui",
+      "title": "Avatar",
+      "description": "FluentDesign Avatar component.",
+      "files": [
+        {
+          "path": "avatar.tsx",
+          "type": "registry:ui",
+          "target": "@ui/avatar.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "radix-ui@^1.6.0"
+      ]
+    },
+    {
+      "name": "badge",
+      "type": "registry:ui",
+      "title": "Badge",
+      "description": "FluentDesign Badge component.",
+      "files": [
+        {
+          "path": "badge.tsx",
+          "type": "registry:ui",
+          "target": "@ui/badge.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1",
+        "radix-ui@^1.6.0"
+      ]
+    },
+    {
+      "name": "breadcrumb",
+      "type": "registry:ui",
+      "title": "Breadcrumb",
+      "description": "FluentDesign Breadcrumb component.",
+      "files": [
+        {
+          "path": "breadcrumb.tsx",
+          "type": "registry:ui",
+          "target": "@ui/breadcrumb.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "lucide-react@^0.487.0",
+        "radix-ui@^1.6.0"
+      ]
+    },
+    {
+      "name": "bubble",
+      "type": "registry:ui",
+      "title": "Bubble",
+      "description": "FluentDesign Bubble component.",
+      "files": [
+        {
+          "path": "bubble.tsx",
+          "type": "registry:ui",
+          "target": "@ui/bubble.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1",
+        "radix-ui@^1.6.0"
+      ]
+    },
+    {
+      "name": "button",
+      "type": "registry:ui",
+      "title": "Button",
+      "description": "FluentDesign Button component.",
+      "files": [
+        {
+          "path": "button.tsx",
+          "type": "registry:ui",
+          "target": "@ui/button.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1",
+        "radix-ui@^1.6.0"
+      ]
+    },
+    {
+      "name": "button-group",
+      "type": "registry:ui",
+      "title": "Button Group",
+      "description": "FluentDesign Button Group component.",
+      "files": [
+        {
+          "path": "button-group.tsx",
+          "type": "registry:ui",
+          "target": "@ui/button-group.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/separator.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1",
+        "radix-ui@^1.6.0"
+      ]
+    },
+    {
+      "name": "calendar",
+      "type": "registry:ui",
+      "title": "Calendar",
+      "description": "FluentDesign Calendar component.",
+      "files": [
+        {
+          "path": "calendar.tsx",
+          "type": "registry:ui",
+          "target": "@ui/calendar.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/button.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "lucide-react@^0.487.0",
+        "react-day-picker@^10.0.1"
+      ]
+    },
+    {
+      "name": "card",
+      "type": "registry:ui",
+      "title": "Card",
+      "description": "FluentDesign Card component.",
+      "files": [
+        {
+          "path": "card.tsx",
+          "type": "registry:ui",
+          "target": "@ui/card.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ]
+    },
+    {
+      "name": "carousel",
+      "type": "registry:ui",
+      "title": "Carousel",
+      "description": "FluentDesign Carousel component.",
+      "files": [
+        {
+          "path": "carousel.tsx",
+          "type": "registry:ui",
+          "target": "@ui/carousel.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/button.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "embla-carousel-react@^8.6.0",
+        "lucide-react@^0.487.0"
+      ]
+    },
+    {
+      "name": "chart",
+      "type": "registry:ui",
+      "title": "Chart",
+      "description": "FluentDesign Chart component.",
+      "files": [
+        {
+          "path": "chart.tsx",
+          "type": "registry:ui",
+          "target": "@ui/chart.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "recharts@3.8.0"
+      ]
+    },
+    {
+      "name": "checkbox",
+      "type": "registry:ui",
+      "title": "Checkbox",
+      "description": "FluentDesign Checkbox component.",
+      "files": [
+        {
+          "path": "checkbox.tsx",
+          "type": "registry:ui",
+          "target": "@ui/checkbox.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "lucide-react@^0.487.0",
+        "radix-ui@^1.6.0"
+      ]
+    },
+    {
+      "name": "collapsible",
+      "type": "registry:ui",
+      "title": "Collapsible",
+      "description": "FluentDesign Collapsible component.",
+      "files": [
+        {
+          "path": "collapsible.tsx",
+          "type": "registry:ui",
+          "target": "@ui/collapsible.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json"
+      ],
+      "dependencies": [
+        "radix-ui@^1.6.0"
+      ]
+    },
+    {
+      "name": "combobox",
+      "type": "registry:ui",
+      "title": "Combobox",
+      "description": "FluentDesign Combobox component.",
+      "files": [
+        {
+          "path": "combobox.tsx",
+          "type": "registry:ui",
+          "target": "@ui/combobox.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/button.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/input-group.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.6.0",
+        "lucide-react@^0.487.0"
+      ]
+    },
+    {
+      "name": "command",
+      "type": "registry:ui",
+      "title": "Command",
+      "description": "FluentDesign Command component.",
+      "files": [
+        {
+          "path": "command.tsx",
+          "type": "registry:ui",
+          "target": "@ui/command.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/dialog.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "cmdk@^1.1.1",
+        "lucide-react@^0.487.0"
+      ]
+    },
+    {
+      "name": "context-menu",
+      "type": "registry:ui",
+      "title": "Context Menu",
+      "description": "FluentDesign Context Menu component.",
+      "files": [
+        {
+          "path": "context-menu.tsx",
+          "type": "registry:ui",
+          "target": "@ui/context-menu.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "lucide-react@^0.487.0",
+        "radix-ui@^1.6.0"
+      ]
+    },
+    {
+      "name": "dialog",
+      "type": "registry:ui",
+      "title": "Dialog",
+      "description": "FluentDesign Dialog component.",
+      "files": [
+        {
+          "path": "dialog.tsx",
+          "type": "registry:ui",
+          "target": "@ui/dialog.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/button.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "lucide-react@^0.487.0",
+        "radix-ui@^1.6.0"
+      ]
+    },
+    {
+      "name": "direction",
+      "type": "registry:ui",
+      "title": "Direction",
+      "description": "FluentDesign Direction component.",
+      "files": [
+        {
+          "path": "direction.tsx",
+          "type": "registry:ui",
+          "target": "@ui/direction.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json"
+      ],
+      "dependencies": [
+        "radix-ui@^1.6.0"
+      ]
+    },
+    {
+      "name": "drawer",
+      "type": "registry:ui",
+      "title": "Drawer",
+      "description": "FluentDesign Drawer component.",
+      "files": [
+        {
+          "path": "drawer.tsx",
+          "type": "registry:ui",
+          "target": "@ui/drawer.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "vaul@^1.1.2"
+      ]
+    },
+    {
+      "name": "dropdown-menu",
+      "type": "registry:ui",
+      "title": "Dropdown Menu",
+      "description": "FluentDesign Dropdown Menu component.",
+      "files": [
+        {
+          "path": "dropdown-menu.tsx",
+          "type": "registry:ui",
+          "target": "@ui/dropdown-menu.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "lucide-react@^0.487.0",
+        "radix-ui@^1.6.0"
+      ]
+    },
+    {
+      "name": "empty",
+      "type": "registry:ui",
+      "title": "Empty",
+      "description": "FluentDesign Empty component.",
+      "files": [
+        {
+          "path": "empty.tsx",
+          "type": "registry:ui",
+          "target": "@ui/empty.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1"
+      ]
+    },
+    {
+      "name": "field",
+      "type": "registry:ui",
+      "title": "Field",
+      "description": "FluentDesign Field component.",
+      "files": [
+        {
+          "path": "field.tsx",
+          "type": "registry:ui",
+          "target": "@ui/field.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/label.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/separator.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1"
+      ]
+    },
+    {
+      "name": "form",
+      "type": "registry:ui",
+      "title": "Form",
+      "description": "FluentDesign Form component.",
+      "files": [
+        {
+          "path": "form.tsx",
+          "type": "registry:ui",
+          "target": "@ui/form.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/label.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "radix-ui@^1.6.0",
+        "react-hook-form@^7.80.0"
+      ]
+    },
+    {
+      "name": "hover-card",
+      "type": "registry:ui",
+      "title": "Hover Card",
+      "description": "FluentDesign Hover Card component.",
+      "files": [
+        {
+          "path": "hover-card.tsx",
+          "type": "registry:ui",
+          "target": "@ui/hover-card.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "radix-ui@^1.6.0"
+      ]
+    },
+    {
+      "name": "input",
+      "type": "registry:ui",
+      "title": "Input",
+      "description": "FluentDesign Input component.",
+      "files": [
+        {
+          "path": "input.tsx",
+          "type": "registry:ui",
+          "target": "@ui/input.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ]
+    },
+    {
+      "name": "input-group",
+      "type": "registry:ui",
+      "title": "Input Group",
+      "description": "FluentDesign Input Group component.",
+      "files": [
+        {
+          "path": "input-group.tsx",
+          "type": "registry:ui",
+          "target": "@ui/input-group.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/button.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/input.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/textarea.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1"
+      ]
+    },
+    {
+      "name": "input-otp",
+      "type": "registry:ui",
+      "title": "Input Otp",
+      "description": "FluentDesign Input Otp component.",
+      "files": [
+        {
+          "path": "input-otp.tsx",
+          "type": "registry:ui",
+          "target": "@ui/input-otp.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "input-otp@^1.4.2",
+        "lucide-react@^0.487.0"
+      ]
+    },
+    {
+      "name": "item",
+      "type": "registry:ui",
+      "title": "Item",
+      "description": "FluentDesign Item component.",
+      "files": [
+        {
+          "path": "item.tsx",
+          "type": "registry:ui",
+          "target": "@ui/item.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/separator.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1",
+        "radix-ui@^1.6.0"
+      ]
+    },
+    {
+      "name": "kbd",
+      "type": "registry:ui",
+      "title": "Kbd",
+      "description": "FluentDesign Kbd component.",
+      "files": [
+        {
+          "path": "kbd.tsx",
+          "type": "registry:ui",
+          "target": "@ui/kbd.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ]
+    },
+    {
+      "name": "label",
+      "type": "registry:ui",
+      "title": "Label",
+      "description": "FluentDesign Label component.",
+      "files": [
+        {
+          "path": "label.tsx",
+          "type": "registry:ui",
+          "target": "@ui/label.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "radix-ui@^1.6.0"
+      ]
+    },
+    {
+      "name": "marker",
+      "type": "registry:ui",
+      "title": "Marker",
+      "description": "FluentDesign Marker component.",
+      "files": [
+        {
+          "path": "marker.tsx",
+          "type": "registry:ui",
+          "target": "@ui/marker.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1",
+        "radix-ui@^1.6.0"
+      ]
+    },
+    {
+      "name": "menubar",
+      "type": "registry:ui",
+      "title": "Menubar",
+      "description": "FluentDesign Menubar component.",
+      "files": [
+        {
+          "path": "menubar.tsx",
+          "type": "registry:ui",
+          "target": "@ui/menubar.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "lucide-react@^0.487.0",
+        "radix-ui@^1.6.0"
+      ]
+    },
+    {
+      "name": "message",
+      "type": "registry:ui",
+      "title": "Message",
+      "description": "FluentDesign Message component.",
+      "files": [
+        {
+          "path": "message.tsx",
+          "type": "registry:ui",
+          "target": "@ui/message.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ]
+    },
+    {
+      "name": "message-scroller",
+      "type": "registry:ui",
+      "title": "Message Scroller",
+      "description": "FluentDesign Message Scroller component.",
+      "files": [
+        {
+          "path": "message-scroller.tsx",
+          "type": "registry:ui",
+          "target": "@ui/message-scroller.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/button.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "@shadcn/react@^0.2.0",
+        "lucide-react@^0.487.0"
+      ]
+    },
+    {
+      "name": "native-select",
+      "type": "registry:ui",
+      "title": "Native Select",
+      "description": "FluentDesign Native Select component.",
+      "files": [
+        {
+          "path": "native-select.tsx",
+          "type": "registry:ui",
+          "target": "@ui/native-select.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "lucide-react@^0.487.0"
+      ]
+    },
+    {
+      "name": "navigation-menu",
+      "type": "registry:ui",
+      "title": "Navigation Menu",
+      "description": "FluentDesign Navigation Menu component.",
+      "files": [
+        {
+          "path": "navigation-menu.tsx",
+          "type": "registry:ui",
+          "target": "@ui/navigation-menu.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1",
+        "lucide-react@^0.487.0",
+        "radix-ui@^1.6.0"
+      ]
+    },
+    {
+      "name": "pagination",
+      "type": "registry:ui",
+      "title": "Pagination",
+      "description": "FluentDesign Pagination component.",
+      "files": [
+        {
+          "path": "pagination.tsx",
+          "type": "registry:ui",
+          "target": "@ui/pagination.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/button.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "lucide-react@^0.487.0"
+      ]
+    },
+    {
+      "name": "popover",
+      "type": "registry:ui",
+      "title": "Popover",
+      "description": "FluentDesign Popover component.",
+      "files": [
+        {
+          "path": "popover.tsx",
+          "type": "registry:ui",
+          "target": "@ui/popover.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "radix-ui@^1.6.0"
+      ]
+    },
+    {
+      "name": "progress",
+      "type": "registry:ui",
+      "title": "Progress",
+      "description": "FluentDesign Progress component.",
+      "files": [
+        {
+          "path": "progress.tsx",
+          "type": "registry:ui",
+          "target": "@ui/progress.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "radix-ui@^1.6.0"
+      ]
+    },
+    {
+      "name": "radio-group",
+      "type": "registry:ui",
+      "title": "Radio Group",
+      "description": "FluentDesign Radio Group component.",
+      "files": [
+        {
+          "path": "radio-group.tsx",
+          "type": "registry:ui",
+          "target": "@ui/radio-group.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "lucide-react@^0.487.0",
+        "radix-ui@^1.6.0"
+      ]
+    },
+    {
+      "name": "resizable",
+      "type": "registry:ui",
+      "title": "Resizable",
+      "description": "FluentDesign Resizable component.",
+      "files": [
+        {
+          "path": "resizable.tsx",
+          "type": "registry:ui",
+          "target": "@ui/resizable.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "lucide-react@^0.487.0",
+        "react-resizable-panels@^4.12.0"
+      ]
+    },
+    {
+      "name": "scroll-area",
+      "type": "registry:ui",
+      "title": "Scroll Area",
+      "description": "FluentDesign Scroll Area component.",
+      "files": [
+        {
+          "path": "scroll-area.tsx",
+          "type": "registry:ui",
+          "target": "@ui/scroll-area.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "radix-ui@^1.6.0"
+      ]
+    },
+    {
+      "name": "select",
+      "type": "registry:ui",
+      "title": "Select",
+      "description": "FluentDesign Select component.",
+      "files": [
+        {
+          "path": "select.tsx",
+          "type": "registry:ui",
+          "target": "@ui/select.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "lucide-react@^0.487.0",
+        "radix-ui@^1.6.0"
+      ]
+    },
+    {
+      "name": "separator",
+      "type": "registry:ui",
+      "title": "Separator",
+      "description": "FluentDesign Separator component.",
+      "files": [
+        {
+          "path": "separator.tsx",
+          "type": "registry:ui",
+          "target": "@ui/separator.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "radix-ui@^1.6.0"
+      ]
+    },
+    {
+      "name": "sheet",
+      "type": "registry:ui",
+      "title": "Sheet",
+      "description": "FluentDesign Sheet component.",
+      "files": [
+        {
+          "path": "sheet.tsx",
+          "type": "registry:ui",
+          "target": "@ui/sheet.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "lucide-react@^0.487.0",
+        "radix-ui@^1.6.0"
+      ]
+    },
+    {
+      "name": "sidebar",
+      "type": "registry:ui",
+      "title": "Sidebar",
+      "description": "FluentDesign Sidebar component.",
+      "files": [
+        {
+          "path": "sidebar.tsx",
+          "type": "registry:ui",
+          "target": "@ui/sidebar.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/button.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/input.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/separator.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/sheet.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/skeleton.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/tooltip.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/use-mobile.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1",
+        "lucide-react@^0.487.0",
+        "radix-ui@^1.6.0"
+      ]
+    },
+    {
+      "name": "skeleton",
+      "type": "registry:ui",
+      "title": "Skeleton",
+      "description": "FluentDesign Skeleton component.",
+      "files": [
+        {
+          "path": "skeleton.tsx",
+          "type": "registry:ui",
+          "target": "@ui/skeleton.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ]
+    },
+    {
+      "name": "slider",
+      "type": "registry:ui",
+      "title": "Slider",
+      "description": "FluentDesign Slider component.",
+      "files": [
+        {
+          "path": "slider.tsx",
+          "type": "registry:ui",
+          "target": "@ui/slider.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "radix-ui@^1.6.0"
+      ]
+    },
+    {
+      "name": "sonner",
+      "type": "registry:ui",
+      "title": "Sonner",
+      "description": "FluentDesign Sonner component.",
+      "files": [
+        {
+          "path": "sonner.tsx",
+          "type": "registry:ui",
+          "target": "@ui/sonner.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json"
+      ],
+      "dependencies": [
+        "lucide-react@^0.487.0",
+        "next-themes@^0.4.6",
+        "sonner@^2.0.7"
+      ]
+    },
+    {
+      "name": "spinner",
+      "type": "registry:ui",
+      "title": "Spinner",
+      "description": "FluentDesign Spinner component.",
+      "files": [
+        {
+          "path": "spinner.tsx",
+          "type": "registry:ui",
+          "target": "@ui/spinner.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "lucide-react@^0.487.0"
+      ]
+    },
+    {
+      "name": "switch",
+      "type": "registry:ui",
+      "title": "Switch",
+      "description": "FluentDesign Switch component.",
+      "files": [
+        {
+          "path": "switch.tsx",
+          "type": "registry:ui",
+          "target": "@ui/switch.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "radix-ui@^1.6.0"
+      ]
+    },
+    {
+      "name": "table",
+      "type": "registry:ui",
+      "title": "Table",
+      "description": "FluentDesign Table component.",
+      "files": [
+        {
+          "path": "table.tsx",
+          "type": "registry:ui",
+          "target": "@ui/table.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ]
+    },
+    {
+      "name": "tabs",
+      "type": "registry:ui",
+      "title": "Tabs",
+      "description": "FluentDesign Tabs component.",
+      "files": [
+        {
+          "path": "tabs.tsx",
+          "type": "registry:ui",
+          "target": "@ui/tabs.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1",
+        "radix-ui@^1.6.0"
+      ]
+    },
+    {
+      "name": "textarea",
+      "type": "registry:ui",
+      "title": "Textarea",
+      "description": "FluentDesign Textarea component.",
+      "files": [
+        {
+          "path": "textarea.tsx",
+          "type": "registry:ui",
+          "target": "@ui/textarea.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ]
+    },
+    {
+      "name": "toggle",
+      "type": "registry:ui",
+      "title": "Toggle",
+      "description": "FluentDesign Toggle component.",
+      "files": [
+        {
+          "path": "toggle.tsx",
+          "type": "registry:ui",
+          "target": "@ui/toggle.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1",
+        "radix-ui@^1.6.0"
+      ]
+    },
+    {
+      "name": "toggle-group",
+      "type": "registry:ui",
+      "title": "Toggle Group",
+      "description": "FluentDesign Toggle Group component.",
+      "files": [
+        {
+          "path": "toggle-group.tsx",
+          "type": "registry:ui",
+          "target": "@ui/toggle-group.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/toggle.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1",
+        "radix-ui@^1.6.0"
+      ]
+    },
+    {
+      "name": "tooltip",
+      "type": "registry:ui",
+      "title": "Tooltip",
+      "description": "FluentDesign Tooltip component.",
+      "files": [
+        {
+          "path": "tooltip.tsx",
+          "type": "registry:ui",
+          "target": "@ui/tooltip.tsx"
+        }
+      ],
+      "registryDependencies": [
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+      ],
+      "dependencies": [
+        "radix-ui@^1.6.0"
+      ]
+    }
+  ]
+}

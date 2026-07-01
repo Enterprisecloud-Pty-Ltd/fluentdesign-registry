@@ -1,0 +1,614 @@
+@custom-variant dark (&:is(.dark *));
+
+/*
+  Fluent 2 + shadcn/ui Tailwind v4 theme
+
+  Goal:
+  - Keep shadcn/ui's semantic variable contract:
+    background, foreground, card, primary, border, ring, etc.
+  - Replace shadcn's default visual language with Fluent 2.
+  - Prefer Fluent UI v9 / Fluent 2 alias tokens when present.
+  - Provide stable fallbacks for plain Tailwind/shadcn apps.
+*/
+
+:root:root {
+  color-scheme: light;
+
+  /* -------------------------------------------------------------------------- */
+  /* Fonts                                                                       */
+  /* -------------------------------------------------------------------------- */
+
+  /*
+    Fluent's web ramp uses Segoe UI as the default typeface, with native
+    system fonts as the natural fallback.
+  */
+  --font-sans:
+    "Segoe UI Variable", "Segoe UI", system-ui, -apple-system,
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  --font-serif:
+    Georgia, Cambria, "Times New Roman", Times, serif;
+
+  --font-mono:
+    "Cascadia Code", "Cascadia Mono", Consolas, "SFMono-Regular", Menlo,
+    Monaco, "Liberation Mono", "Courier New", monospace;
+
+  /* -------------------------------------------------------------------------- */
+  /* shadcn semantic colors, rebuilt as Fluent aliases                           */
+  /* -------------------------------------------------------------------------- */
+
+  --background: var(--colorNeutralBackground1, #ffffff);
+  --foreground: var(--colorNeutralForeground1, #242424);
+
+  --card: var(--colorNeutralCardBackground, #fafafa);
+  --card-foreground: var(--colorNeutralForeground1, #242424);
+
+  --popover: var(--colorNeutralBackground1, #ffffff);
+  --popover-foreground: var(--colorNeutralForeground1, #242424);
+
+  --primary: var(--colorBrandBackground, #0f6cbd);
+  --primary-foreground: var(--colorNeutralForegroundOnBrand, #ffffff);
+
+  --secondary: var(--colorNeutralBackground2, #fafafa);
+  --secondary-foreground: var(--colorNeutralForeground2, #424242);
+
+  --muted: var(--colorNeutralBackground3, #f5f5f5);
+  --muted-foreground: var(--colorNeutralForeground3, #616161);
+
+  --accent: var(--colorSubtleBackgroundHover, #f5f5f5);
+  --accent-foreground: var(--colorNeutralForeground2, #424242);
+
+  --destructive: var(--colorStatusDangerBackground3, #c50f1f);
+  --destructive-foreground: var(--colorNeutralForegroundOnBrand, #ffffff);
+
+  --border: var(--colorNeutralStroke1, #d1d1d1);
+  --input: var(--colorNeutralStroke1, #d1d1d1);
+  --ring: var(--colorBrandStroke1, #0f6cbd);
+
+  /* -------------------------------------------------------------------------- */
+  /* Sidebar                                                                     */
+  /* -------------------------------------------------------------------------- */
+
+  --sidebar: var(--colorNeutralBackground2, #fafafa);
+  --sidebar-foreground: var(--colorNeutralForeground1, #242424);
+  --sidebar-primary: var(--colorBrandBackground, #0f6cbd);
+  --sidebar-primary-foreground: var(--colorNeutralForegroundOnBrand, #ffffff);
+  --sidebar-accent: var(--colorSubtleBackgroundHover, #f5f5f5);
+  --sidebar-accent-foreground: var(--colorNeutralForeground2, #424242);
+  --sidebar-border: var(--colorNeutralStroke1, #d1d1d1);
+  --sidebar-ring: var(--colorBrandStroke1, #0f6cbd);
+
+  /* -------------------------------------------------------------------------- */
+  /* Charts                                                                      */
+  /* -------------------------------------------------------------------------- */
+
+  /*
+    Keep charts Microsoft-ish but not noisy.
+    Brand blue first, then restrained shared/status palette colors.
+  */
+  --chart-1: var(--colorBrandBackground, #0f6cbd);
+  --chart-2: var(--colorBrandForeground2, #115ea3);
+  --chart-3: var(--colorPaletteTealForeground2, #00666d);
+  --chart-4: var(--colorPaletteGreenForeground2, #0e700e);
+  --chart-5: var(--colorPalettePurpleForeground2, #5c2e91);
+
+  /* -------------------------------------------------------------------------- */
+  /* Additional Fluent semantic aliases                                          */
+  /* -------------------------------------------------------------------------- */
+
+  --fluent-bg-1: var(--colorNeutralBackground1, #ffffff);
+  --fluent-bg-2: var(--colorNeutralBackground2, #fafafa);
+  --fluent-bg-3: var(--colorNeutralBackground3, #f5f5f5);
+  --fluent-bg-4: var(--colorNeutralBackground4, #f0f0f0);
+  --fluent-card: var(--colorNeutralCardBackground, #fafafa);
+
+  --fluent-text-1: var(--colorNeutralForeground1, #242424);
+  --fluent-text-2: var(--colorNeutralForeground2, #424242);
+  --fluent-text-3: var(--colorNeutralForeground3, #616161);
+  --fluent-text-disabled: var(--colorNeutralForegroundDisabled, #bdbdbd);
+
+  --fluent-stroke-1: var(--colorNeutralStroke1, #d1d1d1);
+  --fluent-stroke-2: var(--colorNeutralStroke2, #e0e0e0);
+  --fluent-stroke-accessible: var(--colorNeutralStrokeAccessible, #616161);
+
+  --fluent-brand: var(--colorBrandBackground, #0f6cbd);
+  --fluent-brand-hover: var(--colorBrandBackgroundHover, #115ea3);
+  --fluent-brand-pressed: var(--colorBrandBackgroundPressed, #0c3b5e);
+  --fluent-brand-selected: var(--colorBrandBackgroundSelected, #0f548c);
+  --fluent-brand-subtle: var(--colorBrandBackground2, #ebf3fc);
+
+  --fluent-success: var(--colorStatusSuccessBackground3, #107c10);
+  --fluent-warning: var(--colorStatusWarningBackground3, #f7630c);
+  --fluent-danger: var(--colorStatusDangerBackground3, #c50f1f);
+  --fluent-info: var(--colorBrandBackground, #0f6cbd);
+
+  /* -------------------------------------------------------------------------- */
+  /* Radius                                                                      */
+  /* -------------------------------------------------------------------------- */
+
+  /*
+    Fluent shape:
+    - 0px: nav bars / connected edges
+    - 2px: small elements
+    - 4px: normal controls
+    - 8px: larger controls/cards
+    - 12px: popovers/sheets
+  */
+  --radius: var(--borderRadiusMedium, 4px);
+
+  /* -------------------------------------------------------------------------- */
+  /* Shadows / elevation                                                         */
+  /* -------------------------------------------------------------------------- */
+
+  --shadow-2xs: var(
+    --shadow2,
+    0 0.8px 2px rgba(0, 0, 0, 0.13),
+    0 0.1px 0.5px rgba(0, 0, 0, 0.11)
+  );
+
+  --shadow-xs: var(
+    --shadow2,
+    0 0.8px 2px rgba(0, 0, 0, 0.13),
+    0 0.1px 0.5px rgba(0, 0, 0, 0.11)
+  );
+
+  --shadow-sm: var(
+    --shadow2,
+    0 0.8px 2px rgba(0, 0, 0, 0.13),
+    0 0.1px 0.5px rgba(0, 0, 0, 0.11)
+  );
+
+  --shadow: var(
+    --shadow4,
+    0 1.6px 3.6px rgba(0, 0, 0, 0.13),
+    0 0.3px 0.9px rgba(0, 0, 0, 0.11)
+  );
+
+  --shadow-md: var(
+    --shadow8,
+    0 3.2px 7.2px rgba(0, 0, 0, 0.13),
+    0 0.6px 1.8px rgba(0, 0, 0, 0.11)
+  );
+
+  --shadow-lg: var(
+    --shadow16,
+    0 6.4px 14.4px rgba(0, 0, 0, 0.13),
+    0 1.2px 3.6px rgba(0, 0, 0, 0.11)
+  );
+
+  --shadow-xl: var(
+    --shadow28,
+    0 14px 28px rgba(0, 0, 0, 0.18),
+    0 10px 10px rgba(0, 0, 0, 0.12)
+  );
+
+  --shadow-2xl: var(
+    --shadow64,
+    0 32px 64px rgba(0, 0, 0, 0.24),
+    0 16px 32px rgba(0, 0, 0, 0.18)
+  );
+
+  /* Kept for compatibility with shadcn theme generators. */
+  --shadow-x: 0;
+  --shadow-y: 1px;
+  --shadow-blur: 3px;
+  --shadow-spread: 0px;
+  --shadow-opacity: 0.12;
+  --shadow-color: oklch(0 0 0);
+
+  --tracking-normal: 0em;
+  --spacing: 0.25rem;
+}
+
+.dark.dark {
+  color-scheme: dark;
+
+  --background: var(--colorNeutralBackground1, #292929);
+  --foreground: var(--colorNeutralForeground1, #ffffff);
+
+  --card: var(--colorNeutralCardBackground, #333333);
+  --card-foreground: var(--colorNeutralForeground1, #ffffff);
+
+  --popover: var(--colorNeutralBackground1, #292929);
+  --popover-foreground: var(--colorNeutralForeground1, #ffffff);
+
+  --primary: var(--colorBrandBackground, #115ea3);
+  --primary-foreground: var(--colorNeutralForegroundOnBrand, #ffffff);
+
+  --secondary: var(--colorNeutralBackground2, #1f1f1f);
+  --secondary-foreground: var(--colorNeutralForeground2, #d6d6d6);
+
+  --muted: var(--colorNeutralBackground3, #141414);
+  --muted-foreground: var(--colorNeutralForeground3, #adadad);
+
+  --accent: var(--colorSubtleBackgroundHover, #383838);
+  --accent-foreground: var(--colorNeutralForeground2, #d6d6d6);
+
+  --destructive: var(--colorStatusDangerBackground3, #c50f1f);
+  --destructive-foreground: var(--colorNeutralForegroundOnBrand, #ffffff);
+
+  --border: var(--colorNeutralStroke1, #666666);
+  --input: var(--colorNeutralStroke1, #666666);
+  --ring: var(--colorBrandStroke1, #479ef5);
+
+  --sidebar: var(--colorNeutralBackground2, #1f1f1f);
+  --sidebar-foreground: var(--colorNeutralForeground1, #ffffff);
+  --sidebar-primary: var(--colorBrandBackground, #115ea3);
+  --sidebar-primary-foreground: var(--colorNeutralForegroundOnBrand, #ffffff);
+  --sidebar-accent: var(--colorSubtleBackgroundHover, #383838);
+  --sidebar-accent-foreground: var(--colorNeutralForeground2, #d6d6d6);
+  --sidebar-border: var(--colorNeutralStroke1, #666666);
+  --sidebar-ring: var(--colorBrandStroke1, #479ef5);
+
+  --chart-1: var(--colorBrandBackground, #115ea3);
+  --chart-2: var(--colorBrandForeground2, #62abf5);
+  --chart-3: var(--colorPaletteTealForeground2, #9bd9db);
+  --chart-4: var(--colorPaletteGreenForeground2, #9fd89f);
+  --chart-5: var(--colorPalettePurpleForeground2, #c6b1de);
+
+  --fluent-bg-1: var(--colorNeutralBackground1, #292929);
+  --fluent-bg-2: var(--colorNeutralBackground2, #1f1f1f);
+  --fluent-bg-3: var(--colorNeutralBackground3, #141414);
+  --fluent-bg-4: var(--colorNeutralBackground4, #0a0a0a);
+  --fluent-card: var(--colorNeutralCardBackground, #333333);
+
+  --fluent-text-1: var(--colorNeutralForeground1, #ffffff);
+  --fluent-text-2: var(--colorNeutralForeground2, #d6d6d6);
+  --fluent-text-3: var(--colorNeutralForeground3, #adadad);
+  --fluent-text-disabled: var(--colorNeutralForegroundDisabled, #5c5c5c);
+
+  --fluent-stroke-1: var(--colorNeutralStroke1, #666666);
+  --fluent-stroke-2: var(--colorNeutralStroke2, #525252);
+  --fluent-stroke-accessible: var(--colorNeutralStrokeAccessible, #adadad);
+
+  --fluent-brand: var(--colorBrandBackground, #115ea3);
+  --fluent-brand-hover: var(--colorBrandBackgroundHover, #0f6cbd);
+  --fluent-brand-pressed: var(--colorBrandBackgroundPressed, #0c3b5e);
+  --fluent-brand-selected: var(--colorBrandBackgroundSelected, #0f548c);
+  --fluent-brand-subtle: var(--colorBrandBackground2, #0c3b5e);
+
+  --fluent-success: var(--colorStatusSuccessBackground3, #107c10);
+  --fluent-warning: var(--colorStatusWarningBackground3, #f7630c);
+  --fluent-danger: var(--colorStatusDangerBackground3, #c50f1f);
+  --fluent-info: var(--colorBrandBackground, #115ea3);
+
+  --shadow-2xs: var(
+    --shadow2,
+    0 0.8px 2px rgba(0, 0, 0, 0.28),
+    0 0.1px 0.5px rgba(0, 0, 0, 0.24)
+  );
+
+  --shadow-xs: var(
+    --shadow2,
+    0 0.8px 2px rgba(0, 0, 0, 0.28),
+    0 0.1px 0.5px rgba(0, 0, 0, 0.24)
+  );
+
+  --shadow-sm: var(
+    --shadow2,
+    0 0.8px 2px rgba(0, 0, 0, 0.28),
+    0 0.1px 0.5px rgba(0, 0, 0, 0.24)
+  );
+
+  --shadow: var(
+    --shadow4,
+    0 1.6px 3.6px rgba(0, 0, 0, 0.28),
+    0 0.3px 0.9px rgba(0, 0, 0, 0.24)
+  );
+
+  --shadow-md: var(
+    --shadow8,
+    0 3.2px 7.2px rgba(0, 0, 0, 0.28),
+    0 0.6px 1.8px rgba(0, 0, 0, 0.24)
+  );
+
+  --shadow-lg: var(
+    --shadow16,
+    0 6.4px 14.4px rgba(0, 0, 0, 0.28),
+    0 1.2px 3.6px rgba(0, 0, 0, 0.24)
+  );
+
+  --shadow-xl: var(
+    --shadow28,
+    0 14px 28px rgba(0, 0, 0, 0.4),
+    0 10px 10px rgba(0, 0, 0, 0.28)
+  );
+
+  --shadow-2xl: var(
+    --shadow64,
+    0 32px 64px rgba(0, 0, 0, 0.48),
+    0 16px 32px rgba(0, 0, 0, 0.36)
+  );
+
+  --shadow-opacity: 0.24;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Tailwind v4 theme exports                                                   */
+/* -------------------------------------------------------------------------- */
+
+@theme inline {
+  /* shadcn color API */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  /* Fluent utility colors */
+  --color-fluent-bg-1: var(--fluent-bg-1);
+  --color-fluent-bg-2: var(--fluent-bg-2);
+  --color-fluent-bg-3: var(--fluent-bg-3);
+  --color-fluent-bg-4: var(--fluent-bg-4);
+  --color-fluent-card: var(--fluent-card);
+
+  --color-fluent-text-1: var(--fluent-text-1);
+  --color-fluent-text-2: var(--fluent-text-2);
+  --color-fluent-text-3: var(--fluent-text-3);
+  --color-fluent-text-disabled: var(--fluent-text-disabled);
+
+  --color-fluent-stroke-1: var(--fluent-stroke-1);
+  --color-fluent-stroke-2: var(--fluent-stroke-2);
+  --color-fluent-stroke-accessible: var(--fluent-stroke-accessible);
+
+  --color-fluent-brand: var(--fluent-brand);
+  --color-fluent-brand-hover: var(--fluent-brand-hover);
+  --color-fluent-brand-pressed: var(--fluent-brand-pressed);
+  --color-fluent-brand-selected: var(--fluent-brand-selected);
+  --color-fluent-brand-subtle: var(--fluent-brand-subtle);
+
+  --color-fluent-success: var(--fluent-success);
+  --color-fluent-warning: var(--fluent-warning);
+  --color-fluent-danger: var(--fluent-danger);
+  --color-fluent-info: var(--fluent-info);
+
+  /* Fonts */
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
+  --font-mono: var(--font-mono);
+
+  /* Fluent type ramp */
+  --text-caption-2: 0.625rem;
+  --text-caption-2--line-height: 0.875rem;
+  --text-caption-2--font-weight: 400;
+
+  --text-caption-2-strong: 0.625rem;
+  --text-caption-2-strong--line-height: 0.875rem;
+  --text-caption-2-strong--font-weight: 600;
+
+  --text-caption-1: 0.75rem;
+  --text-caption-1--line-height: 1rem;
+  --text-caption-1--font-weight: 400;
+
+  --text-caption-1-strong: 0.75rem;
+  --text-caption-1-strong--line-height: 1rem;
+  --text-caption-1-strong--font-weight: 600;
+
+  --text-caption-1-stronger: 0.75rem;
+  --text-caption-1-stronger--line-height: 1rem;
+  --text-caption-1-stronger--font-weight: 700;
+
+  --text-body-1: 0.875rem;
+  --text-body-1--line-height: 1.25rem;
+  --text-body-1--font-weight: 400;
+
+  --text-body-1-strong: 0.875rem;
+  --text-body-1-strong--line-height: 1.25rem;
+  --text-body-1-strong--font-weight: 600;
+
+  --text-body-1-stronger: 0.875rem;
+  --text-body-1-stronger--line-height: 1.25rem;
+  --text-body-1-stronger--font-weight: 700;
+
+  --text-subtitle-2: 1rem;
+  --text-subtitle-2--line-height: 1.375rem;
+  --text-subtitle-2--font-weight: 600;
+
+  --text-subtitle-2-stronger: 1rem;
+  --text-subtitle-2-stronger--line-height: 1.375rem;
+  --text-subtitle-2-stronger--font-weight: 700;
+
+  --text-subtitle-1: 1.25rem;
+  --text-subtitle-1--line-height: 1.625rem;
+  --text-subtitle-1--font-weight: 600;
+
+  --text-title-3: 1.5rem;
+  --text-title-3--line-height: 2rem;
+  --text-title-3--font-weight: 600;
+
+  --text-title-2: 1.75rem;
+  --text-title-2--line-height: 2.25rem;
+  --text-title-2--font-weight: 600;
+
+  --text-title-1: 2rem;
+  --text-title-1--line-height: 2.5rem;
+  --text-title-1--font-weight: 600;
+
+  --text-large-title: 2.5rem;
+  --text-large-title--line-height: 3.25rem;
+  --text-large-title--font-weight: 600;
+
+  --text-display: 4.25rem;
+  --text-display--line-height: 5.75rem;
+  --text-display--font-weight: 600;
+
+  /* Fluent font weights */
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Radius */
+  --radius-none: var(--borderRadiusNone, 0px);
+  --radius-sm: var(--borderRadiusSmall, 2px);
+  --radius-md: var(--borderRadiusMedium, 4px);
+  --radius-lg: var(--borderRadiusLarge, 8px);
+  --radius-xl: var(--borderRadiusXLarge, 12px);
+  --radius-2xl: var(--borderRadiusXLarge, 12px);
+  --radius-full: var(--borderRadiusCircular, 9999px);
+
+  --radius-fluent-none: var(--borderRadiusNone, 0px);
+  --radius-fluent-sm: var(--borderRadiusSmall, 2px);
+  --radius-fluent-md: var(--borderRadiusMedium, 4px);
+  --radius-fluent-lg: var(--borderRadiusLarge, 8px);
+  --radius-fluent-xl: var(--borderRadiusXLarge, 12px);
+  --radius-fluent-full: var(--borderRadiusCircular, 9999px);
+
+  /* Fluent spacing ramp */
+  --spacing-fluent-none: 0px;
+  --spacing-fluent-20: 2px;
+  --spacing-fluent-40: 4px;
+  --spacing-fluent-60: 6px;
+  --spacing-fluent-80: 8px;
+  --spacing-fluent-100: 10px;
+  --spacing-fluent-120: 12px;
+  --spacing-fluent-160: 16px;
+  --spacing-fluent-200: 20px;
+  --spacing-fluent-240: 24px;
+  --spacing-fluent-280: 28px;
+  --spacing-fluent-320: 32px;
+  --spacing-fluent-360: 36px;
+  --spacing-fluent-400: 40px;
+  --spacing-fluent-480: 48px;
+  --spacing-fluent-520: 52px;
+  --spacing-fluent-560: 56px;
+
+  /* Shadows */
+  --shadow-2xs: var(--shadow-2xs);
+  --shadow-xs: var(--shadow-xs);
+  --shadow-sm: var(--shadow-sm);
+  --shadow: var(--shadow);
+  --shadow-md: var(--shadow-md);
+  --shadow-lg: var(--shadow-lg);
+  --shadow-xl: var(--shadow-xl);
+  --shadow-2xl: var(--shadow-2xl);
+
+  --shadow-fluent-2: var(--shadow-sm);
+  --shadow-fluent-4: var(--shadow);
+  --shadow-fluent-8: var(--shadow-md);
+  --shadow-fluent-16: var(--shadow-lg);
+  --shadow-fluent-28: var(--shadow-xl);
+  --shadow-fluent-64: var(--shadow-2xl);
+
+  /* Motion helpers */
+  --ease-fluent-standard: cubic-bezier(0.1, 0.9, 0.2, 1);
+  --ease-fluent-decelerate: cubic-bezier(0.1, 0.9, 0.2, 1);
+  --ease-fluent-accelerate: cubic-bezier(0.7, 0, 1, 0.5);
+  --ease-fluent-linear: linear;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Base layer                                                                  */
+/* -------------------------------------------------------------------------- */
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  html {
+    font-family: var(--font-sans);
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-size: var(--text-body-1);
+    line-height: var(--text-body-1--line-height);
+    font-weight: var(--text-body-1--font-weight);
+  }
+
+  button,
+  input,
+  textarea,
+  select {
+    font: inherit;
+  }
+
+  ::selection {
+    background-color: var(--fluent-brand-subtle);
+    color: var(--foreground);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      scroll-behavior: auto !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  @media (forced-colors: active) {
+    * {
+      forced-color-adjust: auto;
+    }
+
+    :root {
+      --background: Canvas;
+      --foreground: CanvasText;
+      --card: Canvas;
+      --card-foreground: CanvasText;
+      --popover: Canvas;
+      --popover-foreground: CanvasText;
+      --primary: Highlight;
+      --primary-foreground: HighlightText;
+      --secondary: Canvas;
+      --secondary-foreground: CanvasText;
+      --muted: Canvas;
+      --muted-foreground: GrayText;
+      --accent: Highlight;
+      --accent-foreground: HighlightText;
+      --destructive: Mark;
+      --destructive-foreground: MarkText;
+      --border: CanvasText;
+      --input: CanvasText;
+      --ring: Highlight;
+    }
+  }
+}
