@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
   "name": "fluentdesign",
-  "homepage": "https://schalk-conradie.github.io/fluentdesign-registry",
+  "homepage": "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry",
   "include": [
     "src/lib/registry.json",
     "src/hooks/registry.json",

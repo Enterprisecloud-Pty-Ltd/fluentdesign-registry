@@ -9,15 +9,15 @@
     "radix-ui@^1.6.0"
   ],
   "registryDependencies": [
-    "https://schalk-conradie.github.io/fluentdesign-registry/r/button.json",
-    "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-    "https://schalk-conradie.github.io/fluentdesign-registry/r/input.json",
-    "https://schalk-conradie.github.io/fluentdesign-registry/r/separator.json",
-    "https://schalk-conradie.github.io/fluentdesign-registry/r/sheet.json",
-    "https://schalk-conradie.github.io/fluentdesign-registry/r/skeleton.json",
-    "https://schalk-conradie.github.io/fluentdesign-registry/r/tooltip.json",
-    "https://schalk-conradie.github.io/fluentdesign-registry/r/use-mobile.json",
-    "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+    "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/button.json",
+    "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+    "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/input.json",
+    "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/separator.json",
+    "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/sheet.json",
+    "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/skeleton.json",
+    "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/tooltip.json",
+    "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/use-mobile.json",
+    "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
   ],
   "files": [
     {

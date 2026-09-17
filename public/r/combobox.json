@@ -8,10 +8,10 @@
     "lucide-react@^0.487.0"
   ],
   "registryDependencies": [
-    "https://schalk-conradie.github.io/fluentdesign-registry/r/button.json",
-    "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-    "https://schalk-conradie.github.io/fluentdesign-registry/r/input-group.json",
-    "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+    "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/button.json",
+    "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+    "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/input-group.json",
+    "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
   ],
   "files": [
     {

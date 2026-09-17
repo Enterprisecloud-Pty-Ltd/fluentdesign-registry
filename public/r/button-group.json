@@ -8,9 +8,9 @@
     "radix-ui@^1.6.0"
   ],
   "registryDependencies": [
-    "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-    "https://schalk-conradie.github.io/fluentdesign-registry/r/separator.json",
-    "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+    "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+    "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/separator.json",
+    "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
   ],
   "files": [
     {

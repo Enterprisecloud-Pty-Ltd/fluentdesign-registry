@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
   "name": "fluentdesign",
-  "homepage": "https://schalk-conradie.github.io/fluentdesign-registry",
+  "homepage": "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry",
   "items": [
     {
       "name": "utils",
@@ -62,8 +62,8 @@
         "radix-ui@^1.6.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -82,8 +82,8 @@
         "class-variance-authority@^0.7.1"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -102,9 +102,9 @@
         "radix-ui@^1.6.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/button.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/button.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -123,7 +123,7 @@
         "radix-ui@^1.6.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json"
       ],
       "files": [
         {
@@ -143,9 +143,9 @@
         "radix-ui@^1.6.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/button.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/button.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -164,8 +164,8 @@
         "radix-ui@^1.6.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -185,8 +185,8 @@
         "radix-ui@^1.6.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -206,8 +206,8 @@
         "radix-ui@^1.6.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -227,8 +227,8 @@
         "radix-ui@^1.6.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -248,8 +248,8 @@
         "radix-ui@^1.6.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -269,9 +269,9 @@
         "radix-ui@^1.6.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/separator.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/separator.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -291,9 +291,9 @@
         "react-day-picker@^10.0.1"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/button.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/button.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -309,8 +309,8 @@
       "title": "Card",
       "description": "FluentDesign Card component.",
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -330,9 +330,9 @@
         "lucide-react@^0.487.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/button.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/button.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -351,8 +351,8 @@
         "recharts@3.8.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -372,8 +372,8 @@
         "radix-ui@^1.6.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -392,7 +392,7 @@
         "radix-ui@^1.6.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json"
       ],
       "files": [
         {
@@ -412,10 +412,10 @@
         "lucide-react@^0.487.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/button.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/input-group.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/button.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/input-group.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -435,9 +435,9 @@
         "lucide-react@^0.487.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/dialog.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/dialog.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -457,8 +457,8 @@
         "radix-ui@^1.6.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -478,9 +478,9 @@
         "radix-ui@^1.6.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/button.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/button.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -499,7 +499,7 @@
         "radix-ui@^1.6.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json"
       ],
       "files": [
         {
@@ -518,8 +518,8 @@
         "vaul@^1.1.2"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -539,8 +539,8 @@
         "radix-ui@^1.6.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -559,8 +559,8 @@
         "class-variance-authority@^0.7.1"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -579,10 +579,10 @@
         "class-variance-authority@^0.7.1"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/label.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/separator.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/label.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/separator.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -602,9 +602,9 @@
         "react-hook-form@^7.80.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/label.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/label.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -623,8 +623,8 @@
         "radix-ui@^1.6.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -640,8 +640,8 @@
       "title": "Input",
       "description": "FluentDesign Input component.",
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -660,11 +660,11 @@
         "class-variance-authority@^0.7.1"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/button.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/input.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/textarea.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/button.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/input.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/textarea.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -684,8 +684,8 @@
         "lucide-react@^0.487.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -705,9 +705,9 @@
         "radix-ui@^1.6.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/separator.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/separator.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -723,8 +723,8 @@
       "title": "Kbd",
       "description": "FluentDesign Kbd component.",
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -743,8 +743,8 @@
         "radix-ui@^1.6.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -764,8 +764,8 @@
         "radix-ui@^1.6.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -785,8 +785,8 @@
         "radix-ui@^1.6.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -802,8 +802,8 @@
       "title": "Message",
       "description": "FluentDesign Message component.",
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -823,9 +823,9 @@
         "lucide-react@^0.487.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/button.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/button.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -844,8 +844,8 @@
         "lucide-react@^0.487.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -866,8 +866,8 @@
         "radix-ui@^1.6.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -886,9 +886,9 @@
         "lucide-react@^0.487.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/button.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/button.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -907,8 +907,8 @@
         "radix-ui@^1.6.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -927,8 +927,8 @@
         "radix-ui@^1.6.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -948,8 +948,8 @@
         "radix-ui@^1.6.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -969,8 +969,8 @@
         "react-resizable-panels@^4.12.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -989,8 +989,8 @@
         "radix-ui@^1.6.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -1010,8 +1010,8 @@
         "radix-ui@^1.6.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -1030,8 +1030,8 @@
         "radix-ui@^1.6.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -1051,8 +1051,8 @@
         "radix-ui@^1.6.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -1073,15 +1073,15 @@
         "radix-ui@^1.6.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/button.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/input.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/separator.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/sheet.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/skeleton.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/tooltip.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/use-mobile.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/button.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/input.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/separator.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/sheet.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/skeleton.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/tooltip.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/use-mobile.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -1097,8 +1097,8 @@
       "title": "Skeleton",
       "description": "FluentDesign Skeleton component.",
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -1117,8 +1117,8 @@
         "radix-ui@^1.6.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -1139,7 +1139,7 @@
         "sonner@^2.0.7"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json"
       ],
       "files": [
         {
@@ -1158,8 +1158,8 @@
         "lucide-react@^0.487.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -1178,8 +1178,8 @@
         "radix-ui@^1.6.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -1195,8 +1195,8 @@
       "title": "Table",
       "description": "FluentDesign Table component.",
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -1216,8 +1216,8 @@
         "radix-ui@^1.6.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -1233,8 +1233,8 @@
       "title": "Textarea",
       "description": "FluentDesign Textarea component.",
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -1254,8 +1254,8 @@
         "radix-ui@^1.6.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -1275,9 +1275,9 @@
         "radix-ui@^1.6.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/toggle.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/toggle.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
@@ -1296,8 +1296,8 @@
         "radix-ui@^1.6.0"
       ],
       "registryDependencies": [
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
-        "https://schalk-conradie.github.io/fluentdesign-registry/r/utils.json"
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/fluentdesign-theme.json",
+        "https://enterprisecloud-pty-ltd.github.io/fluentdesign-registry/r/utils.json"
       ],
       "files": [
         {
